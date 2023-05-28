@@ -10,7 +10,7 @@ export default function BestillingsAdminKort({post}){
     return (
         <div className="kort bestillingskort" onClick={opdaterKlik}>
             <div className="tekst">
-                <h3>{post.produkt}</h3>
+                <h3>{post.produktnavn}</h3>
                 <hr/>
                 <p>Tid: {post.tid}</p>
                 <p>Dato {post.dato}</p>
@@ -20,7 +20,7 @@ export default function BestillingsAdminKort({post}){
                 <p>Hunderace {post.hunderace}</p>
                 <p>Navn {post.navn}</p>
                 <p>Adresse: {post.adresse}</p>
-                <p>Bynavn {post.nynavn}</p>
+                <p>Bynavn {post.bynavn}</p>
                 <p>Postnr. {post.postnr}</p>
             </div>
         </div>
